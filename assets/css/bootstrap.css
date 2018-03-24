@@ -11,16 +11,27 @@ header  {
     border-bottom: solid #ccc 1px;
 }
 
-
-a.navbar-brand  {
-    font-size: 25px;
+footer  {
+    background-color: #5E7F7E;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    border-top: double #4aaaa5 6px;
+    width: 100%; 
+    text-align: center;
     font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    color: #eee;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 
+
+
 .navbar  {
-    background-color: #ffffff;
-    border-color: #ffffff;
+    background-color: #eee;
+    border-color: #eee;
     margin-bottom: 0px;
 }
 
@@ -28,19 +39,21 @@ a.navbar-brand  {
     background-color: #4aaaa5;
     margin-bottom: 0px;
     margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Cuprum', sans-serif;
 }
 
 .navbar-default .navbar-brand {
     color: #ffffff;
-    font-family: font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 section  {
     background-color: #eee;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     border: solid #5E7F7E 1px;
-    font-family: font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 h1  {
@@ -64,23 +77,14 @@ h2 {
     text-align: center;
 }
 
-.horizontal_divider {
-	border: solid #4aaaa5 3px;
-    border-radius: 2px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 #aboutBox  {
     border: solid #5E7F7E 1px;
     background-color: #eee;
-}
-
-img.image-thumbnail  {
-    width: 100%;
-    height: auto;
+    margin-bottom: 60px;
     padding-bottom: 15px;
 }
+
 
 #inputText  {
     width: 100%;
@@ -92,7 +96,7 @@ textarea  {
     width: 100%;
     height: auto;
     border: solid #ccc 3px;
-    font-family: font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 #submitButton  {
